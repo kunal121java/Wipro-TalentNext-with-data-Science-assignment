@@ -25,5 +25,4 @@ print(f"How much does it cost to operate one server per month? ${cost_per_month:
 print(f"How many days can I operate one server with $918? {days_with_budget:.1f} days")
 
 print("\n" + "="*60)
-print("All exercises and mini projects completed!")
 print("="*60)
