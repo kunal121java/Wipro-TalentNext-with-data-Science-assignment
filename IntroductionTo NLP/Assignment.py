@@ -18,7 +18,7 @@ nltk.download("wordnet")
 
 # Load dataset
 # The dataset usually has two columns: 'label' (spam/ham) and 'message'
-df = pd.read_csv("SMSSpamCollection", sep="\t", names=["label", "message"])
+df = pd.read_csv("spam.csv", sep="\t", names=["label", "message"])
 
 print("First 5 rows of dataset:")
 print(df.head())
